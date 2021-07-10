@@ -522,7 +522,7 @@ body {
 .pop-mask .text {
     font-weight: 700;
     margin-top:1rem;
-    font-size:4rem;
+    font-size:7vh;
 }
 
 .animation-points {
@@ -769,6 +769,22 @@ body {
     .news-grid {
         display:flex;
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pop-do-dont .both {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .animation-points {
+        display:flex;
+        flex-direction:column;
+        /* flex-wrap:wrap; */
+    }
+    
+    .animation-points .animation {
+        display: flex;
         justify-content: center;
     }
 }
