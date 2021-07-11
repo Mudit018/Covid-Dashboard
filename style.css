@@ -742,7 +742,7 @@ body {
 
 
 
-@media (max-width:1100px) {
+@media screen and (max-width:1100px) {
     .grid {
         display:flex;
         flex-wrap:wrap;
@@ -788,5 +788,23 @@ body {
     .animation-points .animation {
         display: flex;
         justify-content: center;
+    }
+
+    .contact {
+        display: flex;
+        /* grid-template-columns: auto auto; */
+        /* grid-gap: 1rem; */
+        margin: 1rem;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* flex-wrap: wrap;*/
+    }
+
+    .right-contact {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
